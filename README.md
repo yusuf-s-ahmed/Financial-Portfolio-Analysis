@@ -1,52 +1,52 @@
-# Portfolio Analysis
+## Analysing a portfolio of assets based in UK energy and financial markets with investment recommendations
 
-This project analyses financial data from various sources, including stock prices, economic indicators, and portfolio metrics. The data is processed and visualized to provide insights into market trends, portfolio performance, and economic conditions.
+This project evaluates a diversified investment portfolio consisting of UK energy and financial stocks (BP, Shell, HSBC, Barclays), ETFs (FTSE 100, S&P 500), and UK 10-year government bonds. Historical price data and macroeconomic indicators, including GDP, commodity prices were collected, cleaned, and queried using SQL for filtering.
 
-## Example Data Visualisation
+### Table of Contents
 
-This is a sample dashboard using the cleaned data in the `output-data` folder.
+- [Portfolio Simulation](###portfolio-weights-simulation)
+- [Features](###features)
+- [Data Sources](###data-sources)
+- [Technology Stack](###technology-stack)
+- [Quick Start Guide](###quick-start-guide)
+- [Sample SQL Queries](###sample-sql-queries)
+- [Key Insights](###key-insights)
+- [Challenges and Solutions](###challenges-and-solutions)
+- [Impact](###impact)
 
-## Table of Contents
+### Portfolio Weights Simulation
 
-- [Overview](#overview)
-- [Features](#features)
-- [Data Sources](#data-sources)
-- [Technology Stack](#technology-stack)
-- [Quick Start Guide](#quick-start-guide)
-- [Sample SQL Queries](#sample-sql-queries)
-- [Key Insights](#key-insights)
-- [Challenges and Solutions](#challenges-and-solutions)
-- [Impact](#impact)
+- UK Financial Markets (HSBC, Barclays) - 30%
+- UK Energy Markets (BP, Shell) - 20%
+- FTSE 100 - 10%
+- S&P 500 - 40%
 
-## Overview
-
-This project processes and analyses financial data from multiple sources, including stock prices, economic indicators, and portfolio metrics. The data is cleaned, transformed, and stored in a structured format for analysis and visualisation.
-
-## Features
+### Features
 
 - **Data Cleaning**: Processes raw CSV files into cleaned datasets
 - **Data Analysis**: SQL-based queries for financial insights
 - **Visualisation**: Graphs and charts for market trends and portfolio performance
 - **Automation**: Python scripts for data processing and analysis
 
-## Data Sources
+### Data Sources
 
 The following datasets are used in this project:
 
-1. **Stock Prices**:
-   - S&P 500: `output-data/S_and_P_500_cleaned.csv`
-   - FTSE 100: `output-data/FTSE_100_cleaned.csv`
-   - Barclays: `output-data/Barclays_cleaned.csv`
-   - HSBC: `output-data/HSBC_cleaned.csv`
-   - Shell: `output-data/Shell_cleaned.csv`
+Stock Prices (sourced from Yahoo Finance):
+- S&P 500
+- FTSE 100
+- Barclays
+- HSBC
+- Shell
 
-2. **Economic Indicators**:
-   - UK CPI: `output-data/uk_cpi_cleaned.csv`
-   - UK GDP: `output-data/uk_gdp_cleaned_usd.csv`
-   - UK Unemployment: `output-data/uk_unemployment_cleaned.csv`
+Economic Indicators:
 
-3. **Portfolio Metrics**:
-   - `output-data/portfolio_metrics_cleaned.csv`
+- UK Consumer Price Index (CPI) — Federal Reserve Economic Data (FRED)
+- UK Unemployment Rate (FRED)
+- UK GDP - World Bank
+
+Portfolio Metrics:
+- Calculated within this project based on stock and economic data
 
 ## Technology Stack
 
@@ -152,8 +152,8 @@ FROM portfolio_metrics;
 | Challenge                         | Solution                                                       |
 |----------------------------------|----------------------------------------------------------------|
 | Data Cleaning                    | Automated scripts for handling missing values and outliers     |
-| Large Datasets                   | Optimized data processing with Pandas                          |
-| Visualization                    | Created clear and informative charts                           |
+| Large Datasets                   | Optimised data processing with Pandas                          |
+| Visualisation                    | Created clear and informative charts                           |
 
 ## Impact
 
