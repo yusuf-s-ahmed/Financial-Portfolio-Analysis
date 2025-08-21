@@ -4,7 +4,7 @@ This project evaluates a diversified investment portfolio consisting of UK energ
 
 ### Table of Contents
 
-- [Portfolio Simulation](###portfolio-weights-simulation)
+- [Portfolio Simulation](#portfolio-weights-simulation)
 - [Features](###features)
 - [Data Sources](###data-sources)
 - [Technology Stack](###technology-stack)
