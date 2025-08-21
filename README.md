@@ -1,34 +1,34 @@
-## Analysing a portfolio of assets based in UK energy and financial markets with investment recommendations
+# Analysing a portfolio of assets based in UK energy and financial markets with investment recommendations
 
 This project evaluates a diversified investment portfolio consisting of UK energy and financial stocks (BP, Shell, HSBC, Barclays), ETFs (FTSE 100, S&P 500), and UK 10-year government bonds. Historical price data and macroeconomic indicators, including GDP, commodity prices were collected, cleaned, and queried using SQL for filtering.
 
-### Table of Contents
+## Table of Contents
 
 - [Portfolio Simulation](#portfolio-weights-simulation)
-- [Features](###features)
-- [Data Sources](###data-sources)
-- [Technology Stack](###technology-stack)
-- [Quick Start Guide](###quick-start-guide)
-- [Sample SQL Queries](###sample-sql-queries)
-- [Key Insights](###key-insights)
-- [Challenges and Solutions](###challenges-and-solutions)
-- [Impact](###impact)
+- [Features](#features)
+- [Data Sources](#data-sources)
+- [Technology Stack](#technology-stack)
+- [Quick Start Guide](#quick-start-guide)
+- [Sample SQL Queries](#sample-sql-queries)
+- [Key Insights](#key-insights)
+- [Challenges and Solutions](#challenges-and-solutions)
+- [Impact](#impact)
 
-### Portfolio Weights Simulation
+## Portfolio Weights Simulation
 
 - UK Financial Markets (HSBC, Barclays) - 30%
 - UK Energy Markets (BP, Shell) - 20%
 - FTSE 100 - 10%
 - S&P 500 - 40%
 
-### Features
+## Features
 
 - **Data Cleaning**: Processes raw CSV files into cleaned datasets
 - **Data Analysis**: SQL-based queries for financial insights
 - **Visualisation**: Graphs and charts for market trends and portfolio performance
 - **Automation**: Python scripts for data processing and analysis
 
-### Data Sources
+## Data Sources
 
 The following datasets are used in this project:
 
