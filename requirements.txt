@@ -2,3 +2,5 @@ fredapi
 pandasql
 yfinance
 python-dotenv
+matplotlib
+numpy
